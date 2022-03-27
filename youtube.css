@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    margin: 0px;
+}
+.rightside{
+    width: 15%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightside img{
+    margin: auto;   
+}
+.hamburgermenu{
+    height: 25px;
+    width: 29px;
+    padding: 18px 14px 18px 16px;
+    cursor: pointer;
+}
+.youtubelogo{
+    height: 25px;
+    width: 110px;
+    padding: 18px 14px 18px 0px;
+    cursor: pointer;
+}
+.midile{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    margin-top: 7.5px;
+}
+.searchbar{
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.searchbutton{
+    width: 24px;
+    border: 2px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.lens{
+    width: 20px;
+    padding-top: 7.5px;
+}
+.mike{
+    width: 3%;
+    height: 44%;
+    padding: 10px 4px;
+    border-radius: 60%;
+    background: #f0f0f0;
+    margin-left: 10px;
+    cursor: pointer;   
+}
+
+.leftside{
+    width: 15%;
+}
+
+.vidicon{
+    cursor: pointer;
+    width: 20px;
+}
+.menuicon{
+    cursor: pointer;
+    width: 20px;
+}
+.bellicon{
+    cursor: pointer;
+    width: 20px;
+}
+.profilepic{
+    cursor: pointer;
+    height: 40px;
+    width: 34px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilepic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sidebar{
+    position: fixed;
+    top: 66px;
+    left: 0;
+    width: 230px;
+}
+.link{
+    width: 100%;
+    padding: 13px 34px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.link img{
+    height: 20px;
+    margin-right: 10px;
+}
+.category{
+    position: fixed;
+    left: 270px;
+    top: 54px;
+    height: 60px;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 27px;
+    display: flex;
+    align-items: center;
+}
+.content{
+    padding: 7px 18px;
+    border-radius: 50px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.content.active{
+    color: #fff;
+    background: #242424;
+}
+.videolist{
+    margin-top: 120px;
+    margin-left: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+}
+.video{
+    min-height: 250px;
+    height: auto;
+}
+.video-thumbnail{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.topic{
+    padding: 10px;
+    display: flex;
+    
+}
+.channel-icon{
+    height: 38px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.title{
+    width: 106%;
+    height: 38px;
+    overflow: hidden;
+}
+.channel-name{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #979797;
+}
